@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Whatsapp Web Page</title>
+    <style>
+    body{
+        background-color: #cfdedc;
+        font-family:'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+    #greenSection{
+        background-color: #05b5a3;
+    }
+     
+
+    #centerPage {
+     display: flex;
+     position: absolute;
+      margin-top:-100px;
+      margin-left: 250px;
+      height: 120%;
+      margin-bottom: 40px;
+      align-content: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .orderlist{
+        /* margin-top: -20px; */
+        padding-top: 20px;
+    }
+    b{
+        color: black;
+    }
+    #videoSection{
+        background-color: whitesmoke;
+        margin: 0px -30px 0 -15px;
+        width: 103%;
+        height: 80%;
+    }
+    </style>
+</head>
+
+<body>
+        <div class="jumbotron jumbotron-fluid" id="greenSection">
+            <div class="container">
+                <div class="lead" style="margin: -50px 0 70px -70px; "><img src="image/whatsapplogo.png" height="50px" width="100px"><span style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 100;"><strong>WHATSAPP WEB</strong></span></div>
+                <!-- <p class="lead">Lorem is taking place for now or what do you think? Have anything in mind for me.</p> -->
+            </div>
+        </div>
+        <div class="col-2"></div>
+            <div class="card col-8" id="centerPage">
+               <div class="card-body">
+                    <div class="row" style="padding-top: 30px; color: darkgray;">
+                        <div class="col-8">
+                            <div>To Use WhatsApp on your Computer</div>
+                                <div> 
+                                    <ol class="orderlist">
+                                        <li style="margin-bottom: 20px;">Open WhatsApp on your phone</li>
+                                            <li style="margin-bottom: 20px;">Tap <b>Menu</b>: or <b>Settings</b> and select <b>WhatsApp Web</b></li>
+                                        <li style="margin-bottom: 20px;">Point your phone to this screen to capture the code</li> 
+                                    </ol> 
+                                </div>
+                        </div>
+                       <div class="QrCode col-2"><img src="image/qrcode.png"></div>
+                    </div>
+                    <div style="padding-top: 20px; margin-bottom:40px;">
+                        <span><a href="#" style="text-decoration: none; color: #05b5a3;">Need help to get started?</a></span> <span style="float: right; margin-right:30px;"> <input type="checkbox" id="signin" name="signin"
+                            checked>Keep me signed in</span>
+                    </div>  
+               </div>
+                        <div class="jumbotron jumbotron-fluid" id="videoSection">
+                                <div class="container"style="padding-left:240px;">
+                                    <img src="image/web-whatsapp 1.png" height="320px" width="550px">
+                                    <!-- <video width="550" height="280" poster="image/web-whatsapp 1.png" controls>
+                                        <source src="https://youtu.be/zEUHUqxeTUM" type="video/mp4"> 
+                                    </video> -->
+                                </div>
+                        </div>
+            </div>
+        <div class="col-2"></div>
+    </body>
+</html>
